@@ -1,8 +1,8 @@
-package org.example.constructorPattern.FactoryPattern;
+package org.example.constructorPattern.FactoryPattern.simpleFactory;
 
 /**
  * packageName    : org.example.constructorPattern.FactoryPattern
- * fileName       : test
+ * fileName       : Pet
  * author         : heon
  * date           : 2024-02-23
  * description    :
@@ -11,5 +11,8 @@ package org.example.constructorPattern.FactoryPattern;
  * -----------------------------------------------------------
  * 2024-02-23           heon               최초 생성
  */
-public class test {
+public interface Pet {
+    enum Type{
+        CAT, DOG
+    }
 }
