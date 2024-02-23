@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="effective 자바 예시 코드 테스트">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/KakaoUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/KakaoUserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/NaverUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/NaverUserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/PetFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/factoryMethod/FactoryMethodTest.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="factory method pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/SoccerStaffFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/StaffFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/TennisStaffFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/SoccerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/TennisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/SoccerPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/TennisPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/abstractFactory/AbstractFactoryMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,17 +66,65 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
       <recent name="org.example.constructorPattern.FactoryPattern.factoryMethod" />
       <recent name="org.example.constructorPattern.FactoryPattern" />
       <recent name="org.example.structuralPattern.DecoratorPattern" />
       <recent name="org.example.behaviorPattern.observerPattern.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
       <recent name="org.example.constructorPattern.FactoryPattern" />
       <recent name="org.example.structuralPattern.DecoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FactoryMethodTest.test">
+  <component name="RunManager" selected="Gradle.AbstractFactoryMethod">
+    <configuration name="AbstractFactoryMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.constructorPattern.FactoryPattern.abstractFactory.AbstractFactoryMethod&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AbstractFactoryMethod.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.constructorPattern.FactoryPattern.abstractFactory.AbstractFactoryMethod.main&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="FactoryMethodTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,59 +194,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WeatherStation.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.behaviorPattern.observerPattern.impl.WeatherStation.main&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="supplierExample.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.etcTest.supplierExample.main&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AbstractFactoryMethod" />
+        <item itemvalue="Gradle.AbstractFactoryMethod.main" />
         <item itemvalue="Gradle.FactoryMethodTest.test" />
         <item itemvalue="Gradle.FactoryPattern.main" />
         <item itemvalue="Gradle.StarbuxxCoffee.main" />
-        <item itemvalue="Gradle.supplierExample.main" />
-        <item itemvalue="Gradle.WeatherStation.main" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,7 @@
       <updated>1708409154794</updated>
       <workItem from="1708409157857" duration="3829000" />
       <workItem from="1708472956043" duration="6053000" />
-      <workItem from="1708665404554" duration="2326000" />
+      <workItem from="1708665404554" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -243,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708665694987</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="factory method pattern">
+      <created>1708667750745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708667750745</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +273,7 @@
     <MESSAGE value="빌더 패턴" />
     <MESSAGE value="Decorator 패턴" />
     <MESSAGE value="effective 자바 예시 코드 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="effective 자바 예시 코드 테스트" />
+    <MESSAGE value="factory method pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory method pattern" />
   </component>
 </project>
