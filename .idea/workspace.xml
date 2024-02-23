@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="빌더 패턴">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Whip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/etcTest/supplierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/DecoratorPattern/StarbuxxCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="Decorator 패턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/FactoryPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/DecoratorPattern/StarbuxxCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/DecoratorPattern/StarbuxxCoffee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +59,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.constructorPattern.FactoryPattern" />
       <recent name="org.example.structuralPattern.DecoratorPattern" />
       <recent name="org.example.behaviorPattern.observerPattern.impl" />
     </key>
@@ -73,7 +67,7 @@
       <recent name="org.example.structuralPattern.DecoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StarbuxxCoffee.main">
+  <component name="RunManager" selected="Gradle.FactoryPattern.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="designPattern.main" />
@@ -86,6 +80,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="FactoryPattern.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.constructorPattern.FactoryPattern.FactoryPattern.main&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="StarbuxxCoffee.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -158,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FactoryPattern.main" />
         <item itemvalue="Gradle.StarbuxxCoffee.main" />
         <item itemvalue="Gradle.supplierExample.main" />
         <item itemvalue="Gradle.WeatherStation.main" />
@@ -174,7 +192,8 @@
       <option name="presentableId" value="Default" />
       <updated>1708409154794</updated>
       <workItem from="1708409157857" duration="3829000" />
-      <workItem from="1708472956043" duration="4820000" />
+      <workItem from="1708472956043" duration="6053000" />
+      <workItem from="1708665404554" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -190,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708414253392</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Decorator 패턴">
+      <created>1708506247717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708506247717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="옵저버 패턴" />
     <MESSAGE value="빌더 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="빌더 패턴" />
+    <MESSAGE value="Decorator 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator 패턴" />
   </component>
 </project>
