@@ -1,0 +1,18 @@
+package org.example.behaviorPattern.observer;
+
+/**
+ * packageName    : org.example.behaviorPattern.observerPattern
+ * fileName       : Subject
+ * author         : heon
+ * date           : 2024-02-20
+ * description    :
+ * ===========================================================
+ * DATE              AUTHOR             NOTE
+ * -----------------------------------------------------------
+ * 2024-02-20           heon               최초 생성
+ */
+public interface Subject{
+    public void registerObserver(Observer o);
+    public void removeObserver(Observer o);
+    public void notifyObserver();
+}

@@ -1,7 +1,5 @@
 package org.example.etcTest;
 
-import org.example.behaviorPattern.observerPattern.impl.CurrentConditionsDisplay;
-import org.example.behaviorPattern.observerPattern.impl.WeatherData;
 import org.junit.jupiter.api.Test;
 
 import java.util.function.Supplier;

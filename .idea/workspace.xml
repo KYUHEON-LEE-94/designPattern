@@ -4,18 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="factory method pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/SoccerStaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/StaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/TennisStaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/SoccerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/TennisManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/SoccerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/TennisPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/abstractFactory/AbstractFactoryMethod.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="abstract factory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observerPattern/DisplayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observer/DisplayElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observerPattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observerPattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observerPattern/impl/CurrentConditionsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observer/impl/CurrentConditionsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observerPattern/impl/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/observer/impl/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/SoccerStaffFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/SoccerStaffFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/StaffFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/StaffFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/TennisStaffFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/TennisStaffFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/productManager/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/SoccerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/productManager/SoccerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productManager/TennisManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/productManager/TennisManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/productPlayer/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/productPlayer/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/abstractFactory/productPlayer/TennisPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/abstractFactory/productPlayer/TennisPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/KakaoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/factoryMethod/KakaoUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/KakaoUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/factoryMethod/KakaoUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/NaverUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/factoryMethod/NaverUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/NaverUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/factoryMethod/NaverUserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/factoryMethod/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/factoryMethod/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/factoryMethod/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/simpleFactory/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/simpleFactory/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/simpleFactory/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/FactoryPattern/simpleFactory/PetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/Factory/simpleFactory/PetFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/builderPattern/AuthenticatedMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/builder/AuthenticatedMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/builderPattern/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/builder/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/builderPattern/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/builder/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/DecoratorPattern/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Whip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/behaviorPattern/observerPattern/impl/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/behaviorPattern/observer/impl/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/FactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/Factory/FactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/abstractFactory/AbstractFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/Factory/abstractFactory/AbstractFactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/FactoryPattern/factoryMethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/constructorPattern/Factory/factoryMethod/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/etcTest/supplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/etcTest/supplierExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/DecoratorPattern/StarbuxxCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/Decorator/StarbuxxCoffee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -214,7 +246,8 @@
       <updated>1708409154794</updated>
       <workItem from="1708409157857" duration="3829000" />
       <workItem from="1708472956043" duration="6053000" />
-      <workItem from="1708665404554" duration="2800000" />
+      <workItem from="1708665404554" duration="3470000" />
+      <workItem from="1708928084717" duration="2001000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -251,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708667750745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="abstract factory">
+      <created>1708668267799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708668267799</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +314,7 @@
     <MESSAGE value="Decorator 패턴" />
     <MESSAGE value="effective 자바 예시 코드 테스트" />
     <MESSAGE value="factory method pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory method pattern" />
+    <MESSAGE value="abstract factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory" />
   </component>
 </project>

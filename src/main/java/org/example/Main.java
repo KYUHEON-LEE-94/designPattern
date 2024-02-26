@@ -1,8 +1,5 @@
 package org.example;
 
-import org.example.behaviorPattern.observerPattern.impl.CurrentConditionsDisplay;
-import org.example.behaviorPattern.observerPattern.impl.WeatherData;
-
 /**
  * packageName    : org.example
  * fileName       : ${NAME}
