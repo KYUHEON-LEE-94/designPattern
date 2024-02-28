@@ -1,22 +1,24 @@
-package org.example.structuralPattern.Decorator;
+package org.example.structuralPattern.decorator;
 
 /**
  * packageName    : org.example.structuralPattern.DecoratorPattern
- * fileName       : Beverage
+ * fileName       : Espresso
  * author         : heon
  * date           : 2024-02-21
- * description    : 추상 구성요소
+ * description    : Espresso 구현(구상 구성요소)
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
  * 2024-02-21           heon               최초 생성
  */
-public abstract class Beverage {
-    String description = "제목 없음";
+public class Espresso extends Beverage {
 
-    public String getDescription() {
-        return description;
+    public Espresso() {
+        description = "에스프레소";
     }
 
-    public abstract double cost();
+    public double cost() {
+        return 1.99;
+    }
+
 }

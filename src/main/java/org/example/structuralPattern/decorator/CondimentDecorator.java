@@ -1,4 +1,4 @@
-package org.example.structuralPattern.Decorator;
+package org.example.structuralPattern.decorator;
 
 /**
  * packageName    : org.example.structuralPattern.DecoratorPattern

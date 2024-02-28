@@ -1,4 +1,4 @@
-package org.example.structuralPattern.Decorator;
+package org.example.structuralPattern.decorator;
 
 /**
  * packageName    : org.example.structuralPattern.DecoratorPattern
@@ -11,14 +11,14 @@ package org.example.structuralPattern.Decorator;
  * -----------------------------------------------------------
  * 2024-02-21           heon               최초 생성
  */
-public class Espresso extends Beverage {
+public class Latte extends Beverage {
 
-    public Espresso() {
-        description = "에스프레소";
+    public Latte() {
+        description = "라떼";
     }
 
     public double cost() {
-        return 1.99;
+        return 2.99;
     }
 
 }
