@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="command pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/DuckTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/TurkeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/WildTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/HomeTheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/Popcorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/StreamingPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/TheaterLights.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="adapter and facade pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/CaffeineBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/CaffeineBeverageWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/TeaWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/CondimentDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Milk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Mocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/Decorator/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Whip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/Decorator/StarbuxxCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/structuralPattern/decorator/StarbuxxCoffee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +50,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
@@ -89,7 +76,7 @@
       <recent name="org.example.structuralPattern.DecoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.DuckTestDrive">
+  <component name="RunManager" selected="애플리케이션.Test">
     <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.structuralPattern.adapter.DuckTestDrive" />
       <module name="designPattern.main" />
@@ -109,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.behaviorPattern.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.behaviorPattern.templateMethod.Test" />
+      <module name="designPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.behaviorPattern.templateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,36 +162,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FactoryMethodTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.constructorPattern.FactoryPattern.factoryMethod.FactoryMethodTest.test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.DuckTestDrive" />
         <item itemvalue="애플리케이션.RemoteLoader" />
         <item itemvalue="Gradle.AbstractFactoryMethod" />
         <item itemvalue="Gradle.AbstractFactoryMethod.main" />
-        <item itemvalue="Gradle.FactoryMethodTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +186,9 @@
       <workItem from="1708928084717" duration="2623000" />
       <workItem from="1708991241132" duration="563000" />
       <workItem from="1708993483312" duration="3998000" />
-      <workItem from="1709099132026" duration="2263000" />
+      <workItem from="1709099132026" duration="2300000" />
+      <workItem from="1709109001649" duration="610000" />
+      <workItem from="1709196288162" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -267,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709002140000</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adapter and facade pattern">
+      <created>1709108829585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709108829585</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +279,7 @@
     <MESSAGE value="abstract factory" />
     <MESSAGE value="Singleton" />
     <MESSAGE value="command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="command pattern" />
+    <MESSAGE value="adapter and facade pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter and facade pattern" />
   </component>
 </project>
