@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="adapter and facade pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/CaffeineBeverageWithHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/TeaWithHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/templateMethod/Test.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="템플릿 메소드 패턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/iterator/DinnerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/iterator/DinnerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/iterator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/iterator/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/iterator/Waitress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +188,8 @@
       <workItem from="1708993483312" duration="3998000" />
       <workItem from="1709099132026" duration="2300000" />
       <workItem from="1709109001649" duration="610000" />
-      <workItem from="1709196288162" duration="939000" />
+      <workItem from="1709196288162" duration="1355000" />
+      <workItem from="1709525608368" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -253,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709108829585</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="템플릿 메소드 패턴">
+      <created>1709197253108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709197253108</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +288,7 @@
     <MESSAGE value="Singleton" />
     <MESSAGE value="command pattern" />
     <MESSAGE value="adapter and facade pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter and facade pattern" />
+    <MESSAGE value="템플릿 메소드 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="템플릿 메소드 패턴" />
   </component>
 </project>
