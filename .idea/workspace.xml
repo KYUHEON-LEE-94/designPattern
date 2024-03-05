@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="Iterator pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MenuTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Waitress.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="composite pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +71,7 @@
       <recent name="org.example.behaviorPattern.observerPattern.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.behaviorPattern.state" />
       <recent name="org.example.behaviorPattern.command" />
       <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
       <recent name="org.example.constructorPattern.FactoryPattern" />
@@ -179,7 +181,8 @@
       <workItem from="1709099132026" duration="2300000" />
       <workItem from="1709109001649" duration="610000" />
       <workItem from="1709196288162" duration="1355000" />
-      <workItem from="1709525608368" duration="3693000" />
+      <workItem from="1709525608368" duration="3910000" />
+      <workItem from="1709607673472" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -258,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709529778714</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="composite pattern">
+      <created>1709531402512</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709531402512</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +297,7 @@
     <MESSAGE value="adapter and facade pattern" />
     <MESSAGE value="템플릿 메소드 패턴" />
     <MESSAGE value="Iterator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator pattern" />
+    <MESSAGE value="composite pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite pattern" />
   </component>
 </project>
