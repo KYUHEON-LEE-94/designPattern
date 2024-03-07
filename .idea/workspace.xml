@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="composite pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behaviorPattern/state/State.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="state pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/remote/MyRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/remote/MyRemoteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/remote/MyRemoteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/virtual/ImageProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <recent name="org.example.structuralPattern.DecoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MenuTestDrive">
+  <component name="RunManager" selected="애플리케이션.MyRemoteImpl">
     <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.structuralPattern.adapter.DuckTestDrive" />
       <module name="designPattern.main" />
@@ -105,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.behaviorPattern.command.RemoteLoader" />
+    <configuration name="MyRemoteClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.constructorPattern.proxy.remote.MyRemoteClient" />
       <module name="designPattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.behaviorPattern.command.*" />
+          <option name="PATTERN" value="org.example.constructorPattern.proxy.remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRemoteImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.constructorPattern.proxy.remote.MyRemoteImpl" />
+      <module name="designPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.constructorPattern.proxy.remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,36 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbstractFactoryMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.constructorPattern.FactoryPattern.abstractFactory.AbstractFactoryMethod&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MyRemoteImpl" />
+        <item itemvalue="애플리케이션.MyRemoteClient" />
         <item itemvalue="애플리케이션.MenuTestDrive" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.DuckTestDrive" />
-        <item itemvalue="애플리케이션.RemoteLoader" />
-        <item itemvalue="Gradle.AbstractFactoryMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +170,9 @@
       <workItem from="1709109001649" duration="610000" />
       <workItem from="1709196288162" duration="1355000" />
       <workItem from="1709525608368" duration="3910000" />
-      <workItem from="1709607673472" duration="1913000" />
+      <workItem from="1709607673472" duration="1990000" />
+      <workItem from="1709712473896" duration="1275000" />
+      <workItem from="1709768507879" duration="2497000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -268,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709531402512</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="state pattern">
+      <created>1709613756846</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709613756846</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +295,7 @@
     <MESSAGE value="템플릿 메소드 패턴" />
     <MESSAGE value="Iterator pattern" />
     <MESSAGE value="composite pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="composite pattern" />
+    <MESSAGE value="state pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="state pattern" />
   </component>
 </project>
