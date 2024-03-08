@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="state pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/remote/MyRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/remote/MyRemoteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/remote/MyRemoteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/virtual/ImageProxy.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="proxy pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/MatchMakingTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/NonOwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/OwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/PersonImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.constructorPattern.proxy.protection" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -172,7 +176,8 @@
       <workItem from="1709525608368" duration="3910000" />
       <workItem from="1709607673472" duration="1990000" />
       <workItem from="1709712473896" duration="1275000" />
-      <workItem from="1709768507879" duration="2497000" />
+      <workItem from="1709768507879" duration="2600000" />
+      <workItem from="1709885478251" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -265,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709613756846</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="proxy pattern">
+      <created>1709772126602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709772126602</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +308,7 @@
     <MESSAGE value="Iterator pattern" />
     <MESSAGE value="composite pattern" />
     <MESSAGE value="state pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="state pattern" />
+    <MESSAGE value="proxy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy pattern" />
   </component>
 </project>
