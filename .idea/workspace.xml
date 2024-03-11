@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="proxy pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/MatchMakingTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/NonOwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/OwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/proxy/protection/PersonImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/RedheadDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,19 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/user/Desktop/Private/Study/private-project/designPattern/src/main/java/org/example/constructorPattern/composite2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.constructorPattern.proxy.protection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Private\Study\private-project\designPattern\src\main\java\org\example\constructorPattern\composite2" />
+      <recent name="C:\Users\user\Desktop\Private\Study\private-project\designPattern\src\main\java\org\example\constructorPattern" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,20 +82,20 @@
       <recent name="org.example.behaviorPattern.observerPattern.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.constructorPattern.composite2" />
       <recent name="org.example.behaviorPattern.state" />
       <recent name="org.example.behaviorPattern.command" />
       <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
       <recent name="org.example.constructorPattern.FactoryPattern" />
-      <recent name="org.example.structuralPattern.DecoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MyRemoteImpl">
-    <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.structuralPattern.adapter.DuckTestDrive" />
+  <component name="RunManager" selected="애플리케이션.MatchMakingTestDrive">
+    <configuration name="MatchMakingTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.constructorPattern.proxy.protection.MatchMakingTestDrive" />
       <module name="designPattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.structuralPattern.adapter.*" />
+          <option name="PATTERN" value="org.example.constructorPattern.proxy.protection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MatchMakingTestDrive" />
         <item itemvalue="애플리케이션.MyRemoteImpl" />
         <item itemvalue="애플리케이션.MyRemoteClient" />
         <item itemvalue="애플리케이션.MenuTestDrive" />
         <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.DuckTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +186,9 @@
       <workItem from="1709607673472" duration="1990000" />
       <workItem from="1709712473896" duration="1275000" />
       <workItem from="1709768507879" duration="2600000" />
-      <workItem from="1709885478251" duration="1293000" />
+      <workItem from="1709885478251" duration="1473000" />
+      <workItem from="1709890710688" duration="17000" />
+      <workItem from="1710152065146" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -277,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709772126602</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="proxy pattern">
+      <created>1709887140311</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709887140311</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
