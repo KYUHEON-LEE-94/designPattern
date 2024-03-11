@@ -1,16 +1,16 @@
 package org.example.constructorPattern.composite;
 
 /**
- * packageName    : org.example.constructorPattern.composite2
- * fileName       : Quackable
+ * packageName    : org.example.behaviorPattern.observerPattern
+ * fileName       : Observer
  * author         : heon
- * date           : 2024-03-11
+ * date           : 2024-02-20
  * description    :
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
- * 2024-03-11           heon               최초 생성
+ * 2024-02-20           heon               최초 생성
  */
-public interface Quackable extends QuackObservable{
-    void quack();
+public interface Observer {
+    void update(QuackObservable duck);
 }

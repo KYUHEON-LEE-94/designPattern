@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="proxy pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/AbstractDuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/CountingDuckFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/DuckSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/GooseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/QuackCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/Quackable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite2/RedheadDuck.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="composite pattern1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Flock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/QuackObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Quackologist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/DuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Quackable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +81,11 @@
       <recent name="org.example.behaviorPattern.observerPattern.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.constructorPattern.composite" />
       <recent name="org.example.constructorPattern.composite2" />
       <recent name="org.example.behaviorPattern.state" />
       <recent name="org.example.behaviorPattern.command" />
       <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
-      <recent name="org.example.constructorPattern.FactoryPattern" />
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.MatchMakingTestDrive">
@@ -188,7 +187,7 @@
       <workItem from="1709768507879" duration="2600000" />
       <workItem from="1709885478251" duration="1473000" />
       <workItem from="1709890710688" duration="17000" />
-      <workItem from="1710152065146" duration="591000" />
+      <workItem from="1710152065146" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -295,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709887140311</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="composite pattern1">
+      <created>1710152693106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710152693106</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +333,7 @@
     <MESSAGE value="composite pattern" />
     <MESSAGE value="state pattern" />
     <MESSAGE value="proxy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy pattern" />
+    <MESSAGE value="composite pattern1" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite pattern1" />
   </component>
 </project>

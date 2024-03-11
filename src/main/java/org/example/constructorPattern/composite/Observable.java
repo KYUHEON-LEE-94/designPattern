@@ -2,11 +2,12 @@ package org.example.constructorPattern.composite;
 
 
 
-
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- * packageName    : org.example.constructorPattern.composite2
- * fileName       : MallardDuck
+ * packageName    : org.example.constructorPattern.composite
+ * fileName       : Observer
  * author         : heon
  * date           : 2024-03-11
  * description    :
@@ -15,25 +16,23 @@ package org.example.constructorPattern.composite;
  * -----------------------------------------------------------
  * 2024-03-11           heon               최초 생성
  */
-public class MallardDuck implements Quackable{
-    Observable observable;
+public class Observable implements QuackObservable{
+    List<Observer> observers = new ArrayList<>();
+    QuackObservable duck;
 
-    public MallardDuck() {
-        this.observable = new Observable(this);
-    }
-    @Override
-    public void quack() {
-        System.out.println("꽥꽥");
-        notifyObservers();
+    public Observable(QuackObservable duck) {
+        this.duck = duck;
     }
 
     @Override
     public void registerObserver(Observer observer) {
-        observable.registerObserver(observer);
+        observers.add(observer);
     }
 
     @Override
     public void notifyObservers() {
-        observable.notifyObservers();
+        for (Observer observer : observers) {
+            observer.update(duck);
+        }
     }
 }

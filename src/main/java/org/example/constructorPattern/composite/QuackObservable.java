@@ -1,8 +1,10 @@
 package org.example.constructorPattern.composite;
 
+
+
 /**
- * packageName    : org.example.constructorPattern.composite2
- * fileName       : Quackable
+ * packageName    : org.example.constructorPattern.composite
+ * fileName       : QuackObservable
  * author         : heon
  * date           : 2024-03-11
  * description    :
@@ -11,6 +13,7 @@ package org.example.constructorPattern.composite;
  * -----------------------------------------------------------
  * 2024-03-11           heon               최초 생성
  */
-public interface Quackable extends QuackObservable{
-    void quack();
+public interface QuackObservable {
+    void registerObserver(Observer observer);
+    void notifyObservers();
 }
