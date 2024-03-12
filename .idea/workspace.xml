@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="composite pattern1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Flock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/QuackObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Quackologist.java" afterDir="false" />
+    <list default="true" id="47fa4c63-7d83-4707-b27b-814c209bcc2d" name="변경" comment="composite pattern2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/HeartTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/controller/BeatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/controller/ControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/model/BeatBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/model/BeatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/model/BeatModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/observer/BPMObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/observer/BeatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/mvc/view/DJView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/Quackable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/GooseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/GooseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/QuackCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constructorPattern/composite/RedheadDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/user/Desktop/Private/Study/private-project/designPattern/src/main/java/org/example/constructorPattern/composite2"
+    "last_opened_file_path": "C:/Users/user/Desktop/Private/Study/private-project/designPattern/src/main/java/org/example/constructorPattern/composite/mvc/model"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,11 +71,15 @@
       <recent name="org.example.constructorPattern.proxy.protection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Private\Study\private-project\designPattern\src\main\java\org\example\constructorPattern\composite\mvc\model" />
       <recent name="C:\Users\user\Desktop\Private\Study\private-project\designPattern\src\main\java\org\example\constructorPattern\composite2" />
       <recent name="C:\Users\user\Desktop\Private\Study\private-project\designPattern\src\main\java\org\example\constructorPattern" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Private\Study\private-project\designPattern\src\main\java\org\example\constructorPattern\composite\mvc" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
@@ -88,7 +96,20 @@
       <recent name="org.example.constructorPattern.FactoryPattern.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MatchMakingTestDrive">
+  <component name="RunManager" selected="애플리케이션.HeartTestDrive">
+    <configuration name="HeartTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.constructorPattern.composite.mvc.HeartTestDrive" />
+      <module name="designPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.constructorPattern.composite.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatchMakingTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.constructorPattern.proxy.protection.MatchMakingTestDrive" />
       <module name="designPattern.main" />
@@ -141,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.behaviorPattern.templateMethod.Test" />
-      <module name="designPattern.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.behaviorPattern.templateMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.HeartTestDrive" />
         <item itemvalue="애플리케이션.MatchMakingTestDrive" />
         <item itemvalue="애플리케이션.MyRemoteImpl" />
         <item itemvalue="애플리케이션.MyRemoteClient" />
         <item itemvalue="애플리케이션.MenuTestDrive" />
-        <item itemvalue="애플리케이션.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +195,8 @@
       <workItem from="1709768507879" duration="2600000" />
       <workItem from="1709885478251" duration="1473000" />
       <workItem from="1709890710688" duration="17000" />
-      <workItem from="1710152065146" duration="2022000" />
+      <workItem from="1710152065146" duration="2102000" />
+      <workItem from="1710200322438" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="옵저버 패턴">
       <created>1708410458746</created>
@@ -301,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710152693106</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="composite pattern2">
+      <created>1710154454069</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710154454069</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +350,7 @@
     <MESSAGE value="state pattern" />
     <MESSAGE value="proxy pattern" />
     <MESSAGE value="composite pattern1" />
-    <option name="LAST_COMMIT_MESSAGE" value="composite pattern1" />
+    <MESSAGE value="composite pattern2" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite pattern2" />
   </component>
 </project>
